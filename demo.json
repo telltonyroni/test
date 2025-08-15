@@ -1,0 +1,330 @@
+{
+  "title": "My Product Tour",
+  "settings": {
+    "accent": "#5b8cff",
+    "dimOpacity": 0.6,
+    "font": "ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial",
+    "showGrid": true,
+    "snap": 4,
+    "theme": "dark"
+  },
+  "steps": [
+    {
+      "id": "67a2ae88-ab6e-479d-82d3-acd152c6e7bd",
+      "name": "Step 1",
+      "image": "",
+      "resetOnEnter": true,
+      "autoNextOnLast": false,
+      "hotspots": [
+        {
+          "id": "2214ee66-70e5-4984-9edb-f1be406f794d",
+          "shape": "rect",
+          "x": 0.3,
+          "y": 0.3,
+          "w": 0.25,
+          "h": 0.18,
+          "r": 0.12,
+          "corner": 12,
+          "borderW": 2,
+          "borderC": "#5b8cff",
+          "pulse": false,
+          "auto": 0,
+          "tooltip": {
+            "title": "Step title",
+            "desc": "Say what to notice or do.",
+            "pos": "right",
+            "style": "dark",
+            "accent": "#5b8cff",
+            "width": 320,
+            "arrow": true,
+            "ctaLabel": "Next",
+            "link": ""
+          },
+          "action": {
+            "type": "jump",
+            "target": "016b8e16-0494-41a3-9795-a61438d8d5c9"
+          }
+        }
+      ]
+    },
+    {
+      "id": "016b8e16-0494-41a3-9795-a61438d8d5c9",
+      "name": "New Step",
+      "image": "",
+      "resetOnEnter": true,
+      "autoNextOnLast": false,
+      "hotspots": [
+        {
+          "id": "e7be3fc6-0655-484f-b19f-69d18d078713",
+          "shape": "rect",
+          "x": 0.3,
+          "y": 0.3,
+          "w": 0.25,
+          "h": 0.18,
+          "r": 0.12,
+          "corner": 12,
+          "borderW": 2,
+          "borderC": "#5b8cff",
+          "pulse": true,
+          "auto": 0,
+          "tooltip": {
+            "title": "Step title",
+            "desc": "Say what to notice or do.",
+            "pos": "right",
+            "style": "dark",
+            "accent": "#5b8cff",
+            "width": 320,
+            "arrow": true,
+            "ctaLabel": "Next",
+            "link": ""
+          },
+          "action": {
+            "type": "nextHotspot",
+            "target": ""
+          }
+        },
+        {
+          "id": "85669f7b-928f-4df2-a2f2-9d05e7d55057",
+          "shape": "rect",
+          "x": 0.21316614420062696,
+          "y": 0.43523893805460234,
+          "w": 0.22570532915360503,
+          "h": 0.4235359704500612,
+          "r": 0.12,
+          "corner": 12,
+          "borderW": 2,
+          "borderC": "#5b8cff",
+          "pulse": false,
+          "auto": 0,
+          "tooltip": {
+            "title": "Hotspot 2",
+            "desc": "Say what to notice or do.",
+            "pos": "right",
+            "style": "dark",
+            "accent": "#5b8cff",
+            "width": 320,
+            "arrow": true,
+            "ctaLabel": "Next",
+            "link": ""
+          },
+          "action": {
+            "type": "nextHotspot",
+            "target": ""
+          }
+        },
+        {
+          "id": "f20539d9-859a-4d8c-bdbb-85b6a751a0eb",
+          "shape": "rect",
+          "x": 0.1833855799373041,
+          "y": 0.134305485366401,
+          "w": 0.31347962382445144,
+          "h": 0.3343705029868904,
+          "r": 0.12,
+          "corner": 12,
+          "borderW": 2,
+          "borderC": "#5b8cff",
+          "pulse": false,
+          "auto": 0,
+          "tooltip": {
+            "title": "Hotspot 3",
+            "desc": "Say what to notice or do.",
+            "pos": "right",
+            "style": "dark",
+            "accent": "#5b8cff",
+            "width": 320,
+            "arrow": true,
+            "ctaLabel": "Next",
+            "link": ""
+          },
+          "action": {
+            "type": "nextHotspot",
+            "target": ""
+          }
+        },
+        {
+          "id": "240ba15b-9a14-4733-843c-84dad9c11173",
+          "shape": "rect",
+          "x": 0.2115987460815047,
+          "y": 0.6358612398467366,
+          "w": 0.12539184952978055,
+          "h": 0.07801978403027443,
+          "r": 0.12,
+          "corner": 12,
+          "borderW": 2,
+          "borderC": "#5b8cff",
+          "pulse": false,
+          "auto": 0,
+          "tooltip": {
+            "title": "Hotspot 4",
+            "desc": "Say what to notice or do.",
+            "pos": "right",
+            "style": "dark",
+            "accent": "#5b8cff",
+            "width": 320,
+            "arrow": true,
+            "ctaLabel": "Next",
+            "link": ""
+          },
+          "action": {
+            "type": "nextHotspot",
+            "target": ""
+          }
+        },
+        {
+          "id": "7f789b06-cc7f-4251-a0e5-344d4cce793e",
+          "shape": "rect",
+          "x": 0.3448275862068966,
+          "y": 0.6191427146973921,
+          "w": 0.18181818181818182,
+          "h": 0.022291366865792694,
+          "r": 0.12,
+          "corner": 12,
+          "borderW": 2,
+          "borderC": "#5b8cff",
+          "pulse": false,
+          "auto": 0,
+          "tooltip": {
+            "title": "Hotspot 5",
+            "desc": "Say what to notice or do.",
+            "pos": "right",
+            "style": "dark",
+            "accent": "#5b8cff",
+            "width": 320,
+            "arrow": true,
+            "ctaLabel": "Next",
+            "link": ""
+          },
+          "action": {
+            "type": "nextHotspot",
+            "target": ""
+          }
+        },
+        {
+          "id": "b803b87a-43cf-42d0-b564-0399bd6fe8fb",
+          "shape": "rect",
+          "x": 0.4999999999999999,
+          "y": 0.39065620432301695,
+          "w": 0.07523510971786834,
+          "h": 0.22291366865792697,
+          "r": 0.12,
+          "corner": 12,
+          "borderW": 2,
+          "borderC": "#5b8cff",
+          "pulse": false,
+          "auto": 0,
+          "tooltip": {
+            "title": "Hotspot 6",
+            "desc": "Say what to notice or do.",
+            "pos": "right",
+            "style": "dark",
+            "accent": "#5b8cff",
+            "width": 320,
+            "arrow": true,
+            "ctaLabel": "Next",
+            "link": ""
+          },
+          "action": {
+            "type": "nextHotspot",
+            "target": ""
+          }
+        },
+        {
+          "id": "fb4ad062-7910-404a-a035-448cf6abee3e",
+          "shape": "rect",
+          "x": 0.3761755485893417,
+          "y": 0.5160451429431009,
+          "w": 0.16300940438871472,
+          "h": 0.24520503552371967,
+          "r": 0.12,
+          "corner": 12,
+          "borderW": 2,
+          "borderC": "#5b8cff",
+          "pulse": false,
+          "auto": 0,
+          "tooltip": {
+            "title": "Hotspot 7",
+            "desc": "Say what to notice or do.",
+            "pos": "right",
+            "style": "dark",
+            "accent": "#5b8cff",
+            "width": 320,
+            "arrow": true,
+            "ctaLabel": "Next",
+            "link": ""
+          },
+          "action": {
+            "type": "nextHotspot",
+            "target": ""
+          }
+        },
+        {
+          "id": "1eb15b00-553d-4bed-b8b7-b5a039c66acc",
+          "shape": "rect",
+          "x": 0.40752351097178685,
+          "y": 0.454743884062171,
+          "w": 0.2507836990595611,
+          "h": 0.11145683432896349,
+          "r": 0.12,
+          "corner": 12,
+          "borderW": 2,
+          "borderC": "#5b8cff",
+          "pulse": false,
+          "auto": 0,
+          "tooltip": {
+            "title": "Hotspot 8",
+            "desc": "Say what to notice or do.",
+            "pos": "right",
+            "style": "dark",
+            "accent": "#5b8cff",
+            "width": 320,
+            "arrow": true,
+            "ctaLabel": "Next",
+            "link": ""
+          },
+          "action": {
+            "type": "nextHotspot",
+            "target": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "d74bb22a-7825-4110-a205-518d24702c51",
+      "name": "New Step",
+      "image": "",
+      "resetOnEnter": true,
+      "autoNextOnLast": false,
+      "hotspots": [
+        {
+          "id": "c2c89c9f-3ecb-4180-b93b-d74a919ab8fc",
+          "shape": "rect",
+          "x": 0.3,
+          "y": 0.3,
+          "w": 0.25,
+          "h": 0.18,
+          "r": 0.12,
+          "corner": 12,
+          "borderW": 2,
+          "borderC": "#5b8cff",
+          "pulse": false,
+          "auto": 0,
+          "tooltip": {
+            "title": "Step title",
+            "desc": "Say what to notice or do.",
+            "pos": "right",
+            "style": "dark",
+            "accent": "#5b8cff",
+            "width": 320,
+            "arrow": true,
+            "ctaLabel": "Next",
+            "link": ""
+          },
+          "action": {
+            "type": "nextHotspot",
+            "target": ""
+          }
+        }
+      ]
+    }
+  ]
+}
